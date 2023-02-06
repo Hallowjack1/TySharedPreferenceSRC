@@ -33,9 +33,11 @@
         android:layout_alignRight="@+id/etEmail"
         android:layout_centerVertical="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"/>
-        <!--android:onclick="clear"-->
-        <!--android:text="Clear"-->
+        android:layout_alignParentEnd="true"
+        android:onClick="clear"
+        android:text="Clear"/>
+
+
 
     <EditText
         android:id="@+id/etEmail"
